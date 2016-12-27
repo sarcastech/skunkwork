@@ -1,0 +1,11 @@
+{
+  "/data" : {
+    "name" : "stark",
+    "home" : "winterfel",
+    "says" : "I've lost my head"
+  },
+  "/stuff": [
+    {"cat": "fluffy"},
+    {"cat": "boots"}
+  ]
+}
