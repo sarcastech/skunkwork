@@ -6,6 +6,10 @@
   },
   "/stuff": [
     {"cat": "fluffy"},
+    {"cat": "boots"},
+    {"cat": "mittens"}
+  ],
+  "/stuff/1": [
     {"cat": "boots"}
   ]
 }
