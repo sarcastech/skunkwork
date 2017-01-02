@@ -1,0 +1,28 @@
+{
+  "name": "skunkwork",
+  "version": "1.0.0",
+  "description": "Tool quickly generate web services from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "skunk": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarcastech/skunkwork.git"
+  },
+  "keywords": [
+    "server",
+    "service",
+    "rest",
+    "json"
+  ],
+  "author": "Sarcastech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarcastech/skunkwork/issues"
+  },
+  "homepage": "https://github.com/sarcastech/skunkwork#readme"
+}
