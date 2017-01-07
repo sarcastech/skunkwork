@@ -5,15 +5,14 @@ Ultra simple stub server that returns JSON data
 Skunkwork is a NodeJS server that creates a REST-like API based on prov"id"ed JSON file.
 
 # Usage
-```javascript
-let skunkwork = require('skunkwork')
+Install it globally:
+`npm install skunkwork -g`
 
-// starts server
-skunkwork.start('path/to.json')
+Then call it with a JSON file:
+`skunk example.json`
 
-// stop server
-skunkwork.stop()
-```
+Skunkwork defaults to port 9000, however you can also pass a different port if needed:
+`skunk example.json 1337`
 
 ## How to Create Your JSON file
 Make a JSON obect with each immediate child property named after the path you
