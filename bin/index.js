@@ -5,5 +5,8 @@
 const Skunkwork = require('../lib/index')
 let skunk = new Skunkwork()
 let args = process.argv.slice(2)
-
-skunk.start(args[0], args[1])
+if (args.length < 1) {
+  console.log('Please point to a valid JSON file.')
+} else {
+  skunk.start(args[0], args[1])
+}
