@@ -2,7 +2,7 @@
 Ultra simple stub server that returns JSON data
 
 # Huh?
-Skunkwork is a NodeJS server that creates a REST-like API based on prov"id"ed JSON file.
+Skunkwork is a NodeJS server that creates a REST-like API based on provided JSON file.
 
 # Usage
 Install it globally:
