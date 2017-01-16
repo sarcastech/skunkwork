@@ -4,7 +4,8 @@
   "description": "Tool quickly generate web services from a JSON file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test/*.js",
+    "coverage": "nyc ava test/*.js"
   },
   "bin": {
     "skunk": "./bin/index.js"
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/sarcastech/skunkwork/issues"
   },
-  "homepage": "https://github.com/sarcastech/skunkwork#readme"
+  "homepage": "https://github.com/sarcastech/skunkwork#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nyc": "^10.0.0"
+  }
 }
