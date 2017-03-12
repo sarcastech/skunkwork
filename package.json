@@ -1,7 +1,7 @@
 {
   "name": "skunkwork",
   "version": "1.0.0",
-  "description": "Tool quickly generate web services from a JSON file.",
+  "description": "Ultra simple tool quickly generate stub web services from a JSON file.",
   "main": "index.js",
   "scripts": {
     "test": "ava test/*.js",
