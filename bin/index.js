@@ -2,8 +2,7 @@
 
 'use strct'
 
-const Skunkwork = require('../lib/index')
-let skunk = new Skunkwork()
+const skunk = require('../lib/index')
 let args = process.argv.slice(2)
 if (args.length < 1) {
   console.log('Please point to a valid JSON file.')
