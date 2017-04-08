@@ -31,3 +31,4 @@ wish to stub out. `/path` would be reachable at `locahost:9000/path`.
   ]
 }
 ```
+Using the above JSON example, assuming you keep the default port, you can open your browser to `localhost:9000/path` will return a list of ids. Browsing to `localhost:9000/path/1` will return a list of a single id object.
